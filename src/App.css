@@ -1,0 +1,37 @@
+h4,
+p {
+    margin: 0;
+}
+.App {
+    max-width: 1200px;
+    padding: 0 10vw;
+    margin: 0 auto;
+}
+.content {
+    padding: 1em 0;
+    font-size: 18px;
+}
+.content + .content {
+    border-top: 1px solid #999;
+}
+.content .text {
+    margin-top: 1em;
+}
+.title-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-wrap .title {
+    color: #C00000;
+}
+
+.collector {
+    text-align: right;
+}
+
+.collector img {
+    max-height: 4em;
+    margin-bottom: -1em;
+}
